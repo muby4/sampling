@@ -40,30 +40,86 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
+
 ```
-write your answer here...
+The purpose of this survey is to identify the main factors contributing to high turnover among entry- and lower-level employees in the company. The insights gathered will help guide HR policies and workplace improvements to increase employee satisfaction and retention.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
+
 ```
-write your answer here...
+- Target Population: All former entry- and lower-level employees who left the company within the past 12 months.
+- Sampling Frame: The HR database of past employees who left the company within the timeframe and have valid contact information.
+- Sampling Units: Individual former employees.
+- Observational Units: The same individuals (their responses to the survey questions).
+
 ```
 
 Your 5-10 question survey:
+
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. Which department were you a part of before leaving the company?
+   - [ ] Engineering
+   - [ ] Sales
+   - [ ] Customer Support
+   - [ ] Marketing
+   - [ ] Human Resources
+   - [ ] Other (please specify): ____________
+
+2. What were the primary reasons for your departure? (Select all that apply)
+   - [ ] Lack of advancement opportunities
+   - [ ] Unsatisfactory compensation/benefits
+   - [ ] Poor management or leadership
+   - [ ] Work-related stress or burnout
+   - [ ] More attractive job offer elsewhere
+   - [ ] Personal or family reasons
+   - [ ] Other (please specify): ____________
+
+3. How would you rate your satisfaction with the following, on a scale of 1 (Very Dissatisfied) to 5 (Very Satisfied)?
+   a) Salary and benefits  
+   b) Work-life balance  
+   c) Relationship with your manager  
+   d) Team dynamics  
+   e) Opportunities for career growth  
+
+4. Did you feel recognized and appreciated for your work?
+   - [ ] Always
+   - [ ] Often
+   - [ ] Sometimes
+   - [ ] Rarely
+   - [ ] Never
+
+5. How often did you receive feedback or communication about your performance or development?
+   - [ ] Weekly
+   - [ ] Monthly
+   - [ ] Quarterly
+   - [ ] Rarely
+   - [ ] Never
+
+6. Did you feel the onboarding and training you received were adequate to succeed in your role?
+   - [ ] Yes
+   - [ ] No
+   - [ ] Somewhat
+
+7. Would you consider returning to the company in the future if improvements were made?
+   - [ ] Yes
+   - [ ] No
+   - [ ] Maybe
+
+8. What changes would have made you more likely to stay at the company?  
+   *(Open-ended)*
+
+9. Did you complete an exit interview when leaving the company?
+   - [ ] Yes
+   - [ ] No
+
+10. Any additional feedback or suggestions to help improve employee satisfaction and retention?  
+   *(Open-ended)*
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +127,12 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type:
+The survey used a cross-sectional, stratified random probability sample designed to be representative of the Canadian population aged 15 and older living in the 10 provinces.
+
+2. Sample size:
+Approximately 33,000 households were initially selected. Final usable responses totaled around 22,000 respondents
+
 ```
 
 ## Rubric
