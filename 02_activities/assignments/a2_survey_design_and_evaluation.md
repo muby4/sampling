@@ -126,14 +126,116 @@ Your 5-10 question survey:
 
 Identify and describe survey features:
 
-```
-1. Sample type:
-The survey used a cross-sectional, stratified random probability sample designed to be representative of the Canadian population aged 15 and older living in the 10 provinces.
+---
 
-2. Sample size:
-Approximately 33,000 households were initially selected. Final usable responses totaled around 22,000 respondents
+### 1. **Sample Type**
 
-```
+The survey used a **cross-sectional, stratified probability sample**, designed to represent Canadians aged 15 and older living in private households in the 10 provinces.
+
+---
+
+### 2. **Sample Size**
+
+Approximately **33,000 households** were selected. Around **26,000 individuals** were invited to complete the survey, and the final number of usable responses was approximately **22,000 respondents**.
+
+---
+
+### 3. **Target Population**
+
+All individuals aged **15 years and older**, living in **private households** in the 10 Canadian provinces.
+**Excluded:** Residents of the **territories**, **institutions**, and **First Nations reserves**.
+
+---
+
+### 4. **Sampling Frame**
+
+A combination of:
+
+* **Statistics Canada’s dwelling frame** (addresses of households)
+* **Random digit dialing (RDD)** techniques for both **landline and cell phones**, to ensure coverage of the general population.
+
+---
+
+### 5. **Survey Mode(s)**
+
+A **mixed-mode design** was used:
+
+* **Online questionnaire** (respondents received mail-in invitations with login codes)
+* **Telephone interviews** via **Computer-Assisted Telephone Interviewing (CATI)**
+
+---
+
+### 6. **Timeline**
+
+Data collection occurred from **September 15 to December 2018**.
+
+---
+
+### 7. **Response Rate**
+
+The overall response rate was approximately **41.9%**.
+
+---
+
+### 8. **Weights**
+
+Yes, the dataset includes **weighting variables**:
+
+* **Survey weights** adjust for unequal probabilities of selection
+* Adjustments for **non-response** and **post-stratification calibration** ensure results are **representative of the Canadian population**.
+
+---
+
+### 9. **Data Processing**
+
+Key steps included:
+
+* **Data cleaning and validation**
+* **Recoding** of open-ended or inconsistent responses
+* **Weighting and calibration**
+* **Confidentiality protections** (e.g., suppression or rounding of sensitive values in the Public Use Microdata File)
+
+---
+
+### 10. **Cleaning, Imputation, etc.**
+
+* **Logical consistency checks**
+* **Imputation** for missing demographic or income data (when appropriate)
+* **Suppression or data transformation** to meet confidentiality and disclosure avoidance requirements in public files
+
+---
+
+### 11. **Sources of Error**
+
+Potential sources of error include:
+
+* **Sampling error**: Mitigated through weighting and variance estimation
+* **Non-response error**: Due to the 41.9% response rate, bias is possible if non-respondents differ systematically
+* **Coverage error**: Undercoverage of populations not in the sampling frame (e.g., northern territories, institutions)
+* **Measurement error**: Recall bias, especially in self-reporting charitable donations or volunteer hours
+* **Mode effect**: Differences in responses depending on whether the survey was completed online or by phone
+
+---
+
+### 12. **Limitations and Known Biases**
+
+* **Undercoverage** of key populations (e.g., Indigenous people on reserves, territories, institutionalized individuals)
+* **Low response rate** may introduce **non-response bias**
+* Certain estimates are flagged due to **high sampling variability** (i.e., when **coefficient of variation (CV) exceeds 16.6%**)
+* **Social desirability bias** may affect responses about charitable giving or volunteering
+
+---
+
+### 13. **Links to Documentation and Sources**
+
+* [PUMF User Guide and Documentation (Statistics Canada)](https://www150.statcan.gc.ca/n1/en/catalogue/45250011)
+* [The Daily (StatCan overview of 2018 data)](https://www150.statcan.gc.ca/n1/daily-quotidien/210126/dq210126h-eng.htm)
+* [Survey description on StatCan](https://www.statcan.gc.ca/en/survey/household/4430)
+* [Urban Data Centre Catalogue](https://data.urbandatacentre.ca/catalogue/canada-survey-of-giving-volunteering-and-participating-public-use-microdata-files)
+* [Survey Methodology Reference](https://www150.statcan.gc.ca/n1/pub/89-647-x/2011001/method-eng.htm)
+
+
+
 
 ## Rubric
 
