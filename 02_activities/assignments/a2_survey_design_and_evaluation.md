@@ -40,39 +40,202 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
+
 ```
-write your answer here...
+The purpose of this survey is to identify the main factors contributing to high turnover among entry- and lower-level employees in the company. The insights gathered will help guide HR policies and workplace improvements to increase employee satisfaction and retention.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
+
 ```
-write your answer here...
+- Target Population: All former entry- and lower-level employees who left the company within the past 12 months.
+- Sampling Frame: The HR database of past employees who left the company within the timeframe and have valid contact information.
+- Sampling Units: Individual former employees.
+- Observational Units: The same individuals (their responses to the survey questions).
+
 ```
 
 Your 5-10 question survey:
+
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. Which department were you a part of before leaving the company?
+   - [ ] Engineering
+   - [ ] Sales
+   - [ ] Customer Support
+   - [ ] Marketing
+   - [ ] Human Resources
+   - [ ] Other (please specify): ____________
+
+2. What were the primary reasons for your departure? (Select all that apply)
+   - [ ] Lack of advancement opportunities
+   - [ ] Unsatisfactory compensation/benefits
+   - [ ] Poor management or leadership
+   - [ ] Work-related stress or burnout
+   - [ ] More attractive job offer elsewhere
+   - [ ] Personal or family reasons
+   - [ ] Other (please specify): ____________
+
+3. How would you rate your satisfaction with the following, on a scale of 1 (Very Dissatisfied) to 5 (Very Satisfied)?
+   a) Salary and benefits  
+   b) Work-life balance  
+   c) Relationship with your manager  
+   d) Team dynamics  
+   e) Opportunities for career growth  
+
+4. Did you feel recognized and appreciated for your work?
+   - [ ] Always
+   - [ ] Often
+   - [ ] Sometimes
+   - [ ] Rarely
+   - [ ] Never
+
+5. How often did you receive feedback or communication about your performance or development?
+   - [ ] Weekly
+   - [ ] Monthly
+   - [ ] Quarterly
+   - [ ] Rarely
+   - [ ] Never
+
+6. Did you feel the onboarding and training you received were adequate to succeed in your role?
+   - [ ] Yes
+   - [ ] No
+   - [ ] Somewhat
+
+7. Would you consider returning to the company in the future if improvements were made?
+   - [ ] Yes
+   - [ ] No
+   - [ ] Maybe
+
+8. What changes would have made you more likely to stay at the company?  
+   *(Open-ended)*
+
+9. Did you complete an exit interview when leaving the company?
+   - [ ] Yes
+   - [ ] No
+
+10. Any additional feedback or suggestions to help improve employee satisfaction and retention?  
+   *(Open-ended)*
+
 ```
 
 ## Part B - Survey Evaluation:
 
 Identify and describe survey features:
 
-```
-write your answer here
-```
+---
+
+### 1. **Sample Type**
+
+The survey used a **cross-sectional, stratified probability sample**, designed to represent Canadians aged 15 and older living in private households in the 10 provinces.
+
+---
+
+### 2. **Sample Size**
+
+Approximately **33,000 households** were selected. Around **26,000 individuals** were invited to complete the survey, and the final number of usable responses was approximately **22,000 respondents**.
+
+---
+
+### 3. **Target Population**
+
+All individuals aged **15 years and older**, living in **private households** in the 10 Canadian provinces.
+**Excluded:** Residents of the **territories**, **institutions**, and **First Nations reserves**.
+
+---
+
+### 4. **Sampling Frame**
+
+A combination of:
+
+* **Statistics Canada’s dwelling frame** (addresses of households)
+* **Random digit dialing (RDD)** techniques for both **landline and cell phones**, to ensure coverage of the general population.
+
+---
+
+### 5. **Survey Mode(s)**
+
+A **mixed-mode design** was used:
+
+* **Online questionnaire** (respondents received mail-in invitations with login codes)
+* **Telephone interviews** via **Computer-Assisted Telephone Interviewing (CATI)**
+
+---
+
+### 6. **Timeline**
+
+Data collection occurred from **September 15 to December 2018**.
+
+---
+
+### 7. **Response Rate**
+
+The overall response rate was approximately **41.9%**.
+
+---
+
+### 8. **Weights**
+
+Yes, the dataset includes **weighting variables**:
+
+* **Survey weights** adjust for unequal probabilities of selection
+* Adjustments for **non-response** and **post-stratification calibration** ensure results are **representative of the Canadian population**.
+
+---
+
+### 9. **Data Processing**
+
+Key steps included:
+
+* **Data cleaning and validation**
+* **Recoding** of open-ended or inconsistent responses
+* **Weighting and calibration**
+* **Confidentiality protections** (e.g., suppression or rounding of sensitive values in the Public Use Microdata File)
+
+---
+
+### 10. **Cleaning, Imputation, etc.**
+
+* **Logical consistency checks**
+* **Imputation** for missing demographic or income data (when appropriate)
+* **Suppression or data transformation** to meet confidentiality and disclosure avoidance requirements in public files
+
+---
+
+### 11. **Sources of Error**
+
+Potential sources of error include:
+
+* **Sampling error**: Mitigated through weighting and variance estimation
+* **Non-response error**: Due to the 41.9% response rate, bias is possible if non-respondents differ systematically
+* **Coverage error**: Undercoverage of populations not in the sampling frame (e.g., northern territories, institutions)
+* **Measurement error**: Recall bias, especially in self-reporting charitable donations or volunteer hours
+* **Mode effect**: Differences in responses depending on whether the survey was completed online or by phone
+
+---
+
+### 12. **Limitations and Known Biases**
+
+* **Undercoverage** of key populations (e.g., Indigenous people on reserves, territories, institutionalized individuals)
+* **Low response rate** may introduce **non-response bias**
+* Certain estimates are flagged due to **high sampling variability** (i.e., when **coefficient of variation (CV) exceeds 16.6%**)
+* **Social desirability bias** may affect responses about charitable giving or volunteering
+
+---
+
+### 13. **Links to Documentation and Sources**
+
+* [PUMF User Guide and Documentation (Statistics Canada)](https://www150.statcan.gc.ca/n1/en/catalogue/45250011)
+* [The Daily (StatCan overview of 2018 data)](https://www150.statcan.gc.ca/n1/daily-quotidien/210126/dq210126h-eng.htm)
+* [Survey description on StatCan](https://www.statcan.gc.ca/en/survey/household/4430)
+* [Urban Data Centre Catalogue](https://data.urbandatacentre.ca/catalogue/canada-survey-of-giving-volunteering-and-participating-public-use-microdata-files)
+* [Survey Methodology Reference](https://www150.statcan.gc.ca/n1/pub/89-647-x/2011001/method-eng.htm)
+
+
+
 
 ## Rubric
 
